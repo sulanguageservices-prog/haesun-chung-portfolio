@@ -70,6 +70,17 @@ cite { display: block; font: normal .9rem Lato, sans-serif; color: var(--muted);
 .books small.note { margin-top: .3rem; font-size: .85rem; }
 .tagline { font-family: "Cormorant Garamond", "Noto Serif KR", serif; font-size: 1.35rem; font-style: italic; color: var(--accent); border-left: 3px solid var(--accent); padding-left: 1rem; margin: 1.2rem 0; }
 html[lang="ko"] .tagline { font-family: "Noto Serif KR", serif; font-size: 1.15rem; font-style: normal; }
+.lead { font-size: 1.25rem; line-height: 1.6; }
+.lead strong { color: var(--accent); }
+.contact-links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.icon-link { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 1px solid rgba(255,255,255,.7); border-radius: 50%; }
+.icon-link:hover { background: rgba(255,255,255,.18); }
+.section-intro { max-width: 720px; margin: 0 0 2rem; font-size: 1.1rem; }
+.spec-card { border-top: 4px solid var(--accent); }
+.badge { display: inline-block; margin: 0 0 .6rem; padding: .15em .8em; border-radius: 999px; background: var(--tint); color: var(--accent); font-size: .78rem; font-weight: 700; letter-spacing: .05em; }
+.check { list-style: none; padding: 0; margin: 1rem 0 0; }
+.check li { position: relative; padding: .35rem 0 .35rem 1.6rem; }
+.check li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
 .small { font-size: .9rem; }
 footer { text-align: center; padding: 1.5rem; font-size: .85rem; color: var(--muted); }
 
