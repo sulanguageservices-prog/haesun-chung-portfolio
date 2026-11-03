@@ -71,6 +71,7 @@ cite { display: block; font: normal .9rem Lato, sans-serif; color: var(--muted);
 .blurb { font-size: .92rem; color: var(--muted); margin: .6rem 0 0; }
 .buy { display: inline-block; margin-top: .7rem; font-weight: 700; text-decoration: none; border-bottom: 2px solid var(--accent); }
 .buy:hover { opacity: .8; }
+.buy + .buy { margin-left: 1.5rem; }
 .books small.note { margin-top: .3rem; font-size: .85rem; }
 .tagline { font-family: "Cormorant Garamond", "Noto Serif KR", serif; font-size: 1.35rem; font-style: italic; color: var(--accent); border-left: 3px solid var(--accent); padding-left: 1rem; margin: 1.2rem 0; }
 html[lang="ko"] .tagline { font-family: "Noto Serif KR", serif; font-size: 1.15rem; font-style: normal; }
