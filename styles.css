@@ -51,8 +51,8 @@ cite { display: block; font: normal .9rem Lato, sans-serif; color: var(--muted);
 .facts strong { display: inline-block; min-width: 110px; }
 .steps li { margin-bottom: .8rem; }
 .steps strong { display: block; }
-.contact { text-align: center; background: var(--accent); color: #fff; }
-.contact-layout { display: grid; grid-template-columns: minmax(180px, .7fr) minmax(0, 1.3fr); gap: 3rem; align-items: center; max-width: 800px; margin: auto; }
+.contact { text-align: left; background: var(--accent); color: #fff; }
+.contact-layout { display: grid; grid-template-columns: minmax(180px, .7fr) minmax(0, 1.3fr); gap: 3rem; align-items: start; max-width: 900px; margin: auto; }
 .contact-portrait { width: 100%; max-height: 400px; object-fit: cover; object-position: center top; border-radius: 160px 160px 14px 14px; }
 .contact a { color: #fff; }
 .contact .btn { background: #fff; color: var(--accent); }
@@ -67,7 +67,6 @@ cite { display: block; font: normal .9rem Lato, sans-serif; color: var(--muted);
 .contact-form label small { font-weight: 400; color: var(--muted); }
 .contact-form input, .contact-form textarea { width: 100%; padding: .8em 1em; background: var(--tint); border: 1.5px solid transparent; border-radius: 10px; font: inherit; color: var(--ink); transition: border-color .15s, background .15s, box-shadow .15s; }
 .contact-form textarea { resize: vertical; min-height: 130px; }
-.contact-form ::placeholder { color: #a8a3a8; }
 .contact-form input:focus, .contact-form textarea:focus { outline: none; background: #fff; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(122,62,85,.15); }
 .contact .contact-form .btn { background: var(--accent); color: #fff; border: 0; cursor: pointer; font: inherit; font-weight: 700; padding: .9em 1.6em; }
 .contact-form .form-note { margin: 0; font-size: .8rem; color: var(--muted); }
@@ -90,7 +89,7 @@ cite { display: block; font: normal .9rem Lato, sans-serif; color: var(--muted);
 html[lang="ko"] .tagline { font-family: "Noto Serif KR", serif; font-size: 1.15rem; font-style: normal; }
 .lead { font-size: 1.25rem; line-height: 1.6; }
 .lead strong { color: var(--accent); }
-.contact-links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.contact-links { display: flex; gap: 1rem; justify-content: flex-start; flex-wrap: wrap; }
 .icon-link { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 1px solid rgba(255,255,255,.7); border-radius: 50%; }
 .icon-link:hover { background: rgba(255,255,255,.18); }
 .section-intro { max-width: 720px; margin: 0 0 2rem; font-size: 1.1rem; }
