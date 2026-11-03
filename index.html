@@ -318,16 +318,24 @@
           <h2><span class="ko">문의하기</span><span class="en">Let's talk</span></h2>
           <p><span class="ko">코칭, 퍼실리테이션, 수퍼비전에 대해 편하게 문의해 주세요.</span><span class="en">Reach out about coaching, facilitation or supervision.</span></p>
           <form id="contact-form" class="contact-form">
-            <label for="c-name"><span class="ko">이름</span><span class="en">Name</span></label>
-            <input id="c-name" type="text" autocomplete="name" required>
-            <label for="c-email"><span class="ko">이메일</span><span class="en">Email</span></label>
-            <input id="c-email" type="email" autocomplete="email" required>
-            <label for="c-phone"><span class="ko">전화번호 (선택)</span><span class="en">Phone (optional)</span></label>
-            <input id="c-phone" type="tel" autocomplete="tel">
-            <label for="c-message"><span class="ko">문의 내용</span><span class="en">Message</span></label>
-            <textarea id="c-message" rows="5" required></textarea>
-            <button class="btn" type="submit"><span class="ko">문의 보내기 →</span><span class="en">Send inquiry →</span></button>
-            <p class="small"><span class="ko">보내기를 누르면 입력하신 내용이 담긴 이메일 작성창이 열립니다. 이메일을 발송해 주셔야 문의가 접수됩니다. 직접 보내실 때는 <a href="mailto:coach@haesunchung.com">coach@haesunchung.com</a>으로 연락해 주세요.</span><span class="en">Clicking send opens an email with your details filled in. Please send it to complete your inquiry. You can also write directly to <a href="mailto:coach@haesunchung.com">coach@haesunchung.com</a>.</span></p>
+            <div class="field">
+              <label for="c-name"><span class="ko">이름</span><span class="en">Name</span></label>
+              <input id="c-name" type="text" autocomplete="name" required placeholder="홍길동">
+            </div>
+            <div class="field">
+              <label for="c-email"><span class="ko">이메일</span><span class="en">Email</span></label>
+              <input id="c-email" type="email" autocomplete="email" required placeholder="name@example.com">
+            </div>
+            <div class="field full">
+              <label for="c-phone"><span class="ko">전화번호 <small>(선택)</small></span><span class="en">Phone <small>(optional)</small></span></label>
+              <input id="c-phone" type="tel" autocomplete="tel" placeholder="010-0000-0000">
+            </div>
+            <div class="field full">
+              <label for="c-message"><span class="ko">문의 내용</span><span class="en">Message</span></label>
+              <textarea id="c-message" rows="5" required></textarea>
+            </div>
+            <button class="btn full" type="submit"><span class="ko">문의 보내기 →</span><span class="en">Send inquiry →</span></button>
+            <p class="form-note full"><span class="ko">보내기를 누르면 입력하신 내용이 담긴 이메일 작성창이 열립니다. 이메일을 발송해 주셔야 문의가 접수됩니다. 직접 보내실 때는 <a href="mailto:coach@haesunchung.com">coach@haesunchung.com</a>으로 연락해 주세요.</span><span class="en">Clicking send opens an email with your details filled in. Please send it to complete your inquiry. You can also write directly to <a href="mailto:coach@haesunchung.com">coach@haesunchung.com</a>.</span></p>
           </form>
           <p class="contact-links">
             <span class="icon-link" role="img" aria-label="KakaoTalk" title="KakaoTalk">
