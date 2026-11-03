@@ -54,6 +54,9 @@ cite { display: block; font: normal .9rem Lato, sans-serif; color: var(--muted);
 .contact { text-align: left; background: var(--accent); color: #fff; }
 .contact-layout { display: grid; grid-template-columns: minmax(180px, .7fr) minmax(0, 1.3fr); gap: 3rem; align-items: start; max-width: 900px; margin: auto; }
 .contact-portrait { width: 100%; max-height: 400px; object-fit: cover; object-position: center top; border-radius: 160px 160px 14px 14px; }
+.contact-side { display: flex; flex-direction: column; gap: 1.2rem; }
+.warm-note { margin: 0; text-align: center; font-size: 1rem; line-height: 1.6; }
+.warm-note .temp { display: block; font-family: "Cormorant Garamond", serif; font-size: 2.6rem; font-weight: 600; line-height: 1.1; margin-bottom: .2rem; }
 .contact a { color: #fff; }
 .contact .btn { background: #fff; color: var(--accent); }
 .updates-form { display: flex; flex-wrap: wrap; align-items: end; justify-content: center; gap: .75rem; margin: 1.5rem 0; text-align: left; }
